@@ -6,7 +6,7 @@ using System.Web;
 
 namespace TatilSeyahat.Models.Classes
 {
-    public class İletisim
+    public class Iletisim
     {   
         [Key]
         public int ID { get; set; }

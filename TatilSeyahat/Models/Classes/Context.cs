@@ -12,7 +12,7 @@ namespace TatilSeyahat.Models.Classes
         public DbSet<AdresBlog> AdresBlogs { get; set; }
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Hakkimizda> Hakkimizdas { get; set; }
-        public DbSet<İletisim> İletisims { get; set; }
+        public DbSet<Iletisim> İletisims { get; set; }
         public DbSet<Yorumlar> Yorumlars { get; set; }
 
     }
