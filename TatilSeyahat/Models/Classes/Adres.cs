@@ -6,15 +6,14 @@ using System.Web;
 
 namespace TatilSeyahat.Models.Classes
 {
-    public class Blog
+    public class Adres
     {
         [Key]
         public int ID { get; set; }
         public string Baslik { get; set; }
-        public DateTime Tarih { get; set; }
-
         public string Aciklama { get; set; }
-
-        public string BlogImage { get; set; }
+        public string AcikAdres { get; set; }
+        public string telefon { get; set; }
+        public string Konum{ get; set; }
     }
 }
