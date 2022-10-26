@@ -16,6 +16,6 @@ namespace TatilSeyahat.Models.Classes
         public string Aciklama { get; set; }
 
         public string BlogImage { get; set; }
-        public ICollection<Yorumlar> Yorumlars { get; set; }
+        public ICollection<Yorumlar> Yorumlars { get; set; } //yorumlar tablosuyla ilişkilendirdik
     }
 }
